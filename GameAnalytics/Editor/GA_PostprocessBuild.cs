@@ -13,7 +13,7 @@ namespace GameAnalyticsSDK
 #if UNITY_4_6
 			if (buildTarget == BuildTarget.iPhone)
 #else
-			if (buildTarget == BuildTarget.iOs)
+			if (buildTarget == BuildTarget.iOS)
 #endif
 			{
 				string projPath = path + "/Unity-iPhone.xcodeproj/project.pbxproj";
